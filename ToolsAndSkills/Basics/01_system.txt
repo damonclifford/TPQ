@@ -1,0 +1,47 @@
+#
+# Mac, Linux
+# Cheat Sheet
+#
+
+======
+MAC OS
+======
+
+INSTALLING ITERM
+----------------
+https://www.iterm2.com/
+
+
+INSTALLING DEVELOPER TOOLS
+--------------------------
+xcode-select --install
+
+
+INSTALLING BREW
+---------------
+https://brew.sh/
+
+
+SYSTEM TOOLS
+--------------------------
+brew install $pack1 $pack2
+--------------------------
+screen htop vim
+
+
+=====
+LINUX
+=====
+
+UPDATE/UPGRADE
+--------------
+sudo apt-get update
+sudo apt-get upgrade -y
+
+SYSTEM TOOLS
+------------------------------------
+(sudo) apt-get install $pack1 $pack2
+------------------------------------
+bzip2 wget screen htop gcc vim terminator
+
+

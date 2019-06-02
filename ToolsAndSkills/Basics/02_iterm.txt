@@ -1,0 +1,49 @@
+#
+# iTerm2 Cheat Sheet
+#
+# https://gist.github.com/squarism/ae3613daf5c01a98ba3a
+#
+
+==============
+TABS & WINDOWS
+==============
+Fullscreen                          ⌘ + Enter
+Previous Tab                        ⌘ + Left Arrow
+Next Tab                            ⌘ + Right Arrow
+Go to Tab                           ⌘ + Number
+Go to Window                        ⌘ + Option + Number
+Go to Split Pane by Direction       ⌘ + Option + Arrow
+Go to Split Pane by Order of Use    ⌘ + ] , ⌘ + [
+Split Win Horizontally (same prof)  ⌘ + D
+Split Win Vertically (same prof)    ⌘ + d
+Split Win Horizontally (new prof)   Option + ⌘ + H
+Split Win Vertically (new prof)     Option + ⌘ + V
+Set Mark                            ⌘ + M
+Jump to Mark                        ⌘ + J
+
+===========
+BASIC MOVES
+===========
+Move back one character             Ctrl + b
+Move forward one character          Ctrl + f
+Delete current character            Ctrl + d
+Delete previous character           Backspace
+Undo                                Ctrl + -
+
+=============
+MOVING FASTER
+=============
+Move to the start of line           Ctrl + a
+Move to the end of line             Ctrl + e
+Move forward a word                 Option + f
+Move backward a word                Option + b
+Clear the screen                    ⌘ + k
+
+===============
+COMMAND HISTORY
+===============
+Search as you type                  Ctrl + r (type the search term)
+    [Repeat Ctrl + r to loop through results]
+Search last remembered search term  Ctrl + r twice
+End search at current history entry Ctrl + y
+Cancel search & restore orig line   Ctrl + g

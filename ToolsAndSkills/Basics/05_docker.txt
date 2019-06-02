@@ -1,0 +1,73 @@
+#
+# Docker Cheat Sheet
+#
+
+===============
+DOCKER OVERVIEW
+===============
+https://docs.docker.com/get-started/
+https://docs.docker.com/engine/docker-overview/
+
+
+===================
+DOCKER INSTALLATION
+===================
+
+https://docs.docker.com/engine/installation/
+https://docs.docker.com/docker-for-windows/install/
+https://docs.docker.com/docker-for-mac/install/
+https://docs.docker.com/engine/installation/linux/
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
+
+=============
+DOCKER BASICS
+=============
+
+docker run
+    -ti
+    -p 8888:8888
+    -v ~/docker:/root/docker
+    -h hostname
+    ubuntu:latest
+    /bin/bash
+
+ctrl+p | crtl+q             dettach
+docker attach $conainerid   attach
+
+docker images           all images
+docker rmi $imageid     removing an image
+
+docker ps       running containers
+docker ps -a    all containers
+
+docker stop $containerid        stopping running container
+docker start $containerid       starting a container ("if possible")
+docker attach $containerid      attaching to running container
+docker rm $containerid          removing a container
+
+docker commit $containerid NAME:NAME
+
+
+====================
+WINDOWS INSTALLATION
+====================
+
+1) For Windows 10, download the installer via
+
+    https://download.docker.com/win/stable/InstallDocker.msi
+
+2) Execute the installer.
+
+3) Open the Command Prompt.
+
+4) Run a Docker container by typing into the Docker terminal:
+
+    docker run -it -h ubuntu -p 8888:8888 ubuntu:latest /bin/bash 
+ 
+5) To access applications running within the Docker container, use localhost as in 
+
+    http://localhost:8888
+
+    This only works with newer versions of Docker on Windows 10.
+

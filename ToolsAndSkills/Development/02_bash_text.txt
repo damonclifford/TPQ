@@ -1,0 +1,37 @@
+###############################
+# Tools to Work with Text Files
+###############################
+
+#
+# Larger example text file Sun Tzu "The Art of War"
+# https://textfiles.com/etext/NONFICTION/suntx10.txt
+#
+
+# Retrieve
+wget $URL   retrieve a file from a remote location
+
+# Display, Read, Navigate
+cat         read whole file
+head -n 5   output header lines
+tail -f     output tail end (keep open/update)
+less        read whole file (Vim navigation & searching)
+  -N        show line numbers
+
+# Text Editors
+vim         full-fledged text editor
+nano        simple text editor
+
+# Replacement
+tr          replace
+  [:upper:] [:lower:]       all upper case letters by lower case ones
+  [aeiou] x                 all vowels by an x
+
+# Search
+grep $mask      line selection
+  -oE '\w+'     word selection, output single line
+
+# Uniqueness, Sort, Count
+uniq -c         unique lines with # occurences
+sort            sort lines alphabetically
+sort -nr        sort numerically, reverse order
+wc              l/w/c count

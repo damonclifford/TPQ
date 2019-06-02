@@ -1,0 +1,19 @@
+import pandas as pf
+import pandas as pd
+import matplotlib.pyplot as plt
+file = 'tr_eikon_eod_data.csv'
+df = pd.read_csv(file, index_col=0, parse_dates=True)
+df.head()
+df.info()
+df.shape
+df.plot.style(seaborn)
+plt.ion
+plt.io()
+plt.ion()
+plt.style.use('seaborn')
+df.plot()
+plt.close()
+%history
+%history?
+ls
+%hist -f tools_and_skills1.txt

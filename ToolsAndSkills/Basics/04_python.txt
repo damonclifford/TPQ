@@ -1,0 +1,95 @@
+#
+# Python Environment
+# Cheat Sheet
+#
+
+======
+PYTHON
+======
+
+MINICONDA
+---------
+https://conda.io/miniconda.html
+
+
+CONDA BASICS
+------------
+https://conda.io/docs/get-started.html
+
+
+CONDA ENVIRONMENTS
+------------------
+https://conda.io/docs/using/envs.html
+
+
+
+===============
+PYTHON PACKAGES
+===============
+
+
+INSTALL
+----------------------------
+conda install $pack1 $pack2
+----------------------------
+ipython jupyter numpy pandas
+matplotlib scipy
+scikit-learn tensorflow
+----------------------------
+pip install $pack1 $pack2 
+----------------------------
+plotly cufflinks v20 q
+
+
+REMOVE
+----------------------------
+conda remove $pack1 $pack2
+----------------------------
+----------------------------
+pip uninstall $pack1 $pack2
+----------------------------
+
+
+UPDATE
+----------------------------
+conda update $pack1 $pack2
+----------------------------
+----------------------------
+pip install --upgrade $pack1 
+----------------------------
+
+
+
+===================
+PYTHON ENVIRONMENTS
+===================
+
+CREATION (DIRECT)
+~~~~~~~~~~~~~~~~~
+conda create -n $MY_ENV python=3.6 numpy pandas ipython
+
+CREATION (FROM FILE)
+~~~~~~~~~~~~~~~~~~~~
+conda env create -f $MY_ENV.yml
+
+ACTIVATION
+~~~~~~~~~~
+source activate $MY_ENV (Mac/Linux)
+activate $MY_ENV (Windows)
+
+DEACTIVATION
+~~~~~~~~~~~~
+source deactivate (Mac/Linux)
+deactivate (Windows)
+
+LIST PACKAGES
+~~~~~~~~~~~~~
+conda list
+
+SHARING ENV
+~~~~~~~~~~~
+conda env export > $MY_ENV.yml
+
+DELETION
+~~~~~~~~
+conda remove -n $MY_ENV --all
