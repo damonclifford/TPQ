@@ -31,7 +31,10 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a63131-09dc-47ee-ade2-f71972cc6717" name="Default Changelist" comment="" />
+    <list default="true" id="c7a63131-09dc-47ee-ade2-f71972cc6717" name="Default Changelist" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/FinPy3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -71,6 +74,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,6 +91,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -101,11 +108,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -215,11 +223,13 @@
       <workItem from="1558715829838" duration="529000" />
       <workItem from="1558818155951" duration="640000" />
       <workItem from="1558818989337" duration="4502000" />
+      <workItem from="1559499288268" duration="96000" />
+      <workItem from="1559499436272" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14832000" />
+    <option name="totallyTimeSpent" value="15040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,12 +245,12 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15934066" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16300367" />
       <window_info anchor="bottom" id="TeamCity" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Jupyter" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -255,7 +265,7 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" id="Python Console" order="5" sideWeight="0.61326534" weight="0.5482296" />
-      <window_info anchor="right" id="Terminal" order="6" sideWeight="0.3867347" side_tool="true" visible="true" weight="0.5482296" />
+      <window_info anchor="right" id="Terminal" order="6" sideWeight="0.3867347" side_tool="true" weight="0.5482296" />
       <window_info anchor="right" id="Run" order="7" sideWeight="0.3846939" side_tool="true" weight="0.5482296" />
       <window_info anchor="right" x="0" y="0" width="740" height="850" id="Documentation" order="8" sideWeight="0.4979592" weight="0.503663" />
     </layout>
@@ -302,7 +312,7 @@
     <entry file="file://$PROJECT_DIR$/FinPy3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
